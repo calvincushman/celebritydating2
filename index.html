@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Celebrity Dating</title>
   </head>
@@ -17,15 +17,7 @@
       </div>
       <div class="form-group">
         <label for="age">Age</label>
-        <input type="text" class="form-control" id="age" placeholder="Enter your age">
-      </div>
-      <div class="form-group">
-        <label for="star-sign">Zodiac sign</label>
-        <input type="text" class="form-control" id="zodiac" placeholder="Enter your Zodiac sign">
-      </div>
-      <div class="form-group">
-        <label for="hair">Hair color</label>
-        <input type="text" class="form-control" id="hair" placeholder="Enter your hair color">
+        <input type="number" class="form-control" id="age" placeholder="Enter your age">
       </div>
       <div class="form-group">
         <label for="animal">Favorite Animal</label>
@@ -35,6 +27,31 @@
         <label for="shoe">Shoe Size</label>
         <input type="text" class="form-control" id="shoe" placeholder="Enter your shoe size">
       </div>
+      <label for="zodiac">Zodiac Sign:</label>
+      <select class="form-control" id="zodiac">
+         <option>Aquarius</option>
+         <option>Pisces</option>
+         <option>Aries</option>
+         <option>Taurus</option>
+         <option>Gemini</option>
+         <option>Cancer</option>
+         <option>Leo</option>
+         <option>Virgo</option>
+         <option>Libra</option>
+         <option>Scorpio</option>
+         <option>Sagittarius</option>
+         <option>Capricorn</option>
+      </select>
+      <br>
+      <label for="hair">Hair Color:</label>
+      <select class="form-control" id="hair">
+         <option>Blonde</option>
+         <option>Brown</option>
+         <option>Black</option>
+         <option>Red</option>
+         <option>Blue</option>
+      </select>
+      <br>
       <button type="submit" class="btn btn-default">Who Should You Date??</button>
     </form>
 
@@ -43,19 +60,19 @@
     </div>
 
     <div class="denise celebrity">
-      <img src="img/denise.jpg" alt="Tina Turner" />
+      <img src="img/denise.jpg" alt="Denise Bryson" />
     </div>
 
     <div class="doc celebrity">
-      <img src="img/doc.jpg" alt="Tina Turner" />
+      <img src="img/doc.jpg" alt="Doc Brown" />
     </div>
 
     <div class="chris celebrity">
-      <img src="img/chris.jpg" alt="Tina Turner" />
+      <img src="img/chris.jpg" alt="Ruby Rhod" />
     </div>
 
     <div class="xena celebrity">
-      <img src="img/xena.jpg" alt="Tina Turner" />
+      <img src="img/xena.jpg" alt="Xena Warrior Princess" />
     </div>
 
 
