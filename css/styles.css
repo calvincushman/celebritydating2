@@ -3,5 +3,15 @@
 }
 
 img {
-  width: 300px;
+  width: 500px;
+}
+
+h1 {
+  font-family: Baloo;
+  text-align: center;
+}
+
+h3 {
+  font-family: Satisfy;
+  font-size: 40px;
 }
