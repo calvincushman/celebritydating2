@@ -1,5 +1,5 @@
 $(function(){
-  $(".btn").click(function(){ debugger;
+  $(".btn").click(function(){ 
     $(".celebrity").hide();
 
     var hair = $("#hair").val()
